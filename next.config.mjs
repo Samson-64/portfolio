@@ -7,6 +7,10 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const nextConfig = {
   reactStrictMode: true,
   outputFileTracingRoot: __dirname,
+  output: 'export',
+  basePath: '/portfolio',
+  assetPrefix: '/portfolio/',
 };
+module.exports = nextConfig;
 
 export default nextConfig;
