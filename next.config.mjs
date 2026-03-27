@@ -11,6 +11,4 @@ const nextConfig = {
   basePath: '/portfolio',
   assetPrefix: '/portfolio/',
 };
-module.exports = nextConfig;
-
 export default nextConfig;
