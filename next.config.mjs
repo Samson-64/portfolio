@@ -8,8 +8,7 @@ const nextConfig = {
   reactStrictMode: true,
   outputFileTracingRoot: __dirname,
   output: 'export',
-  basePath: '/portfolio',
-  assetPrefix: '/portfolio/',
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
